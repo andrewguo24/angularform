@@ -1,0 +1,1 @@
+export const btnArray = ["basic", "medium", "advanced"];
