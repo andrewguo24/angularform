@@ -17,7 +17,7 @@ export default class CheckBox extends Component {
     render() {
         return (
             <label>
-                <input className="chkbox"
+                <input className="chkBox"
                     type="checkbox"
                     checked = {this.state.upGrade}
                     onChange={this.handleChange} />

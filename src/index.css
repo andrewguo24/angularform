@@ -1,4 +1,4 @@
-.barstyle {
+.barStyle {
   background-color: #4747d1;
   position:fixed;
   width:100%;
@@ -7,7 +7,7 @@
   height: 65px;
 }
 
-.barfont {
+.barFont {
   font: 20px arial, sans-serif;
   left: 10px;
   top: 5px;
@@ -15,7 +15,7 @@
   margin-left: 15px;
 }
 
-.formbody {
+.formBody {
   width: 750px;
   height: 520px;
   border-radius: 3px;
@@ -28,21 +28,21 @@
   border-bottom: 2px solid #8c8c8c;
 }
 
-.formtitle {
+.formTitle {
   margin-top: 35px;
   font: 20px arial, sans-serif;
   text-indent: 20px;
 }
 
-.angver {
+.angVer {
   margin-top: 30px;
   font: 14px arial, sans-serif;
   text-indent: 20px;
 }
 
-.dropdownbtn {
+.dropDownBtn {
   display: inline-block;
-  width: 200px;
+  width: 25%;
   height: 50px;
   margin-top: 5px;
   border: 1px solid #d9d9d9;
@@ -52,123 +52,10 @@
   line-height: 8px;
 }
 
-.appcomp {
+.appComp {
     margin-top: 40px;
     font: 14px arial, sans-serif;
     text-indent: 20px;
-}
-
-.appbtnleft {
-     display: inline-block;
-     font-size: 15px;
-     text-align: center;
-     color: grey;
-     width: 80px;
-     height: 35px;
-     margin-top: 5px;
-     border-left: 1px solid #d9d9d9;
-     border-top: 1px solid #d9d9d9;
-     border-bottom: 2px solid #8c8c8c;
-     border-right: none;
-     margin-left: 20px;
-     opacity: 0.6;
-     margin-right: -40x;
-     line-height: 32px;
-     cursor: pointer;
- }
-
-.appbtnleft1 {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    width: 80px;
-    height: 35px;
-    margin-top: 5px;
-    border-left: 1px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-right: none;
-    margin-left: 20px;
-    opacity: 0.6;
-    margin-right: -40x;
-    line-height: 32px;
-    cursor: pointer;
-    background-color: darkgrey;
-}
-
-.appbtnmid {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: grey;
-    width: 80px;
-    height: 35px;
-    margin-top: 5px;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-left: none;
-    border-right: none;
-    opacity: 0.6;
-    margin-left: 0px;
-    line-height: 32px;
-    cursor: pointer;
-}
-
-.appbtnmid1 {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    width: 80px;
-    height: 35px;
-    margin-top: 5px;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-left: none;
-    border-right: none;
-    opacity: 0.6;
-    margin-left: 0px;
-    line-height: 32px;
-    cursor: pointer;
-    background-color: darkgrey;
-}
-
-.appbtnright {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: grey;
-    width: 80px;
-    height: 35px;
-    margin-top: 5px;
-    border-right: 1px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-left: none;
-    margin-left: 0px;
-    opacity: 0.6;
-    line-height: 32px;
-    cursor: pointer;
-}
-
-.appbtnright1 {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    width: 80px;
-    height: 35px;
-    margin-top: 5px;
-    border-right: 1px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-left: none;
-    margin-left: 0px;
-    opacity: 0.6;
-    line-height: 32px;
-    cursor: pointer;
-    background-color: darkgrey;
 }
 
 .ngu {
@@ -177,12 +64,13 @@
     text-indent: 20px;
 }
 
-.chkboxxx {
-    width: 18px;
-    height: 18px;
+.chkBox {
+    width: 10px;
+    height: 10px;
     border: 2px solid black;
     margin-left: 20px;
     margin-top: 8px;
+    font-size: 15px;
 }
 
 .versiona {
@@ -194,89 +82,13 @@
     padding: 5px;
 }
 
-.chkbox {
+.chkBox {
     font: 14px arial, sans-serif;
     margin-left: 15px;
     zoom: 1.6;
 }
 
-.pkgbtnleft {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: grey;
-    width: 60px;
-    height: 35px;
-    margin-top: 5px;
-    border-left: 1px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-right: none;
-    margin-left: 20px;
-    opacity: 0.6;
-    margin-right: -40x;
-    line-height: 32px;
-    cursor: pointer;
-}
-
-.pkgbtnleft1 {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    width: 60px;
-    height: 35px;
-    margin-top: 5px;
-    border-left: 1px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-right: none;
-    margin-left: 20px;
-    opacity: 0.6;
-    margin-right: -40x;
-    line-height: 32px;
-    cursor: pointer;
-    background-color: darkgrey;
-}
-
-.pkgbtnright {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: grey;
-    width: 60px;
-    height: 35px;
-    margin-top: 5px;
-    border-right: 1px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-left: none;
-    margin-left: 0px;
-    opacity: 0.6;
-    line-height: 32px;
-    cursor: pointer;
-}
-
-.pkgbtnright1 {
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    width: 60px;
-    height: 35px;
-    margin-top: 5px;
-    border-right: 1px solid #d9d9d9;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 2px solid #8c8c8c;
-    border-left: none;
-    margin-left: 0px;
-    opacity: 0.6;
-    line-height: 32px;
-    cursor: pointer;
-    background-color: darkgrey;
-}
-
-.btnshow {
+.btnShow {
     display: block;
     background-color: #4747d1;
     height: 35px;
@@ -285,7 +97,7 @@
     margin-top: 35px;
 }
 
-.btnshowfont {
+.btnShowFont {
     font: 15px arial, sans-serif;
     left: 10px;
     top: 5px;
@@ -318,4 +130,99 @@
     font-size: 15px;
     cursor: pointer;
     color: #8c8c8c;
+}
+
+@media (max-width: 768px) {
+    .barFont {
+        font-size: 18px;
+        top: 10px;
+    }
+    .formBody {
+        width: 300px;
+        height: 450px;
+    }
+    .formTitle {
+        margin-top: 20px;
+        font-size: 15px;
+        text-indent: 10px;
+    }
+    .angVer {
+        margin-top: 15px;
+        font-size: 12px;
+        text-indent: 20px;
+    }
+    .dropdownbtn {
+        display: inline-block;
+        width: 25%;
+        height: 30px;
+        margin-top: 2px;
+        font-size: 12px;
+        line-height: 2px;
+    }
+    .appComp {
+        margin-top: 35px;
+        font-size: 12px;
+    }
+    .active {
+        font-size: 10px;
+        width: 60px;
+        height: 25px;
+    }
+
+    .btnmargin {
+        margin-left: 20px;
+        border-radius:25px;
+    }
+
+    .btn {
+        width: 60px;
+        height: 25px;
+        background-color: white;
+        font-size: 10px;
+    }
+    .ngu {
+        font-size: 12px;
+    }
+    .btnShow {
+        height: 25px;
+        width: 150px;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+    .btnShowFont {
+        font-size: 12px;
+    }
+    .chkBox {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+    .barFont {
+        font-size: 20px;
+        top: 10px;
+    }
+    .formBody {
+        width: 450px;
+        height: 500px;
+    }
+    .formTitle {
+        margin-top: 20px;
+        font-size: 18px;
+        text-indent: 10px;
+    }
+    .angVer {
+        margin-top: 15px;
+        font-size: 15px;
+        text-indent: 20px;
+    }
+    .dropdownbtn {
+        display: inline-block;
+        width: 25%;
+        height: 35px;
+        margin-top: 2px;
+        font-size: 12px;
+        line-height: 2px;
+    }
+
 }

@@ -3,21 +3,21 @@ import './index.css';
 
 export default class Versiona extends Component {
         state = {
-            valueleft: '5.2',
-            valueright: '6.0',
+            valueLeft: '5.2',
+            valueRight: '6.0',
         };
 
     handleChangeLeft(e) {
-        this.setState({valueleft: e.target.valueleft});
+        this.setState({valueLeft: e.target.valueLeft});
     }
     handleChangeRight (e) {
-        this.setState({valueright: e.target.valueright});
+        this.setState({valueRight: e.target.valueRight});
     }
 
     render() {
         return (
             <form>
-                    <select value={this.state.valueleft} onChange={this.handleChangeLeft} className="dropdownbtn">
+                    <select value={this.state.valueLeft} onChange={this.handleChangeLeft} className="dropDownBtn">
                         <option value="2.0">2.0</option>
                         <option value="2.1">2.1</option>
                         <option value="2.2">2.2</option>
@@ -35,7 +35,7 @@ export default class Versiona extends Component {
                         <option value="7.0">7.0</option>
                         <option value="8.0">8.0</option>
                     </select>
-                    <select value={this.state.valueright} onChange={this.handleChangeRight} className="dropdownbtn">
+                    <select value={this.state.valueRight} onChange={this.handleChangeRight} className="dropDownBtn">
                         <option value="2.0">2.0</option>
                         <option value="2.1">2.1</option>
                         <option value="2.2">2.2</option>
